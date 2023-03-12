@@ -1,0 +1,56 @@
+.component {
+  border: 1px solid var(--border-color);
+  min-height: 13rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+
+.component h1 {
+  font-size: 3rem;
+}
+.component h2 {
+  font-size: 2rem;
+}
+.component h3 {
+  font-size: 1.5rem;
+}
+.component h4 {
+  font-size: 1rem;
+}
+.component h5 {
+  font-size: 0.5rem;
+}
+
+.component .text-xlg {
+  font-size: 3rem;
+}
+.component .text-lg {
+  font-size: 2rem;
+}
+.component .text-md {
+  font-size: 1.5rem;
+}
+.component .text-sm {
+  font-size: 1rem;
+}
+.component .text-xsm {
+  font-size: 0.5rem;
+}
+
+.component .text-gray {
+  color: var(--gray-color);
+}
+.component .text-red {
+  color: var(--red-color);
+}
+.component .text-green {
+  color: var(--green-color);
+}
+
+.component .text-center{
+    text-align: center;
+}

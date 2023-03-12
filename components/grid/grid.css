@@ -1,0 +1,31 @@
+.grid-layout{
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.grid-2column{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3column{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-layout .box {
+  min-height: 20rem;
+  min-width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+}
+
+.grid-layout .box-1 {
+  background-color: var(--secondary-color);
+}
+.grid-layout .box-2 {
+  background-color: var(--complementary-color);
+}
+.grid-layout .box-3 {
+  background-color: var(--shadow-color);
+}

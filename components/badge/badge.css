@@ -1,0 +1,144 @@
+.badge-component {
+  border: 2px solid var(--border-color);
+  margin: 4rem;
+  padding: 2.5rem;
+  border-radius: 0.7rem;
+  font-size: 2rem;
+}
+
+.badge-container div {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+}
+.badge {
+  position: absolute;
+  background-color: var(--badge-bg-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--badge-color);
+  font-size: 1.5rem;
+}
+.badge-sm {
+  width: 2.2rem;
+  height: 2.2rem;
+  top: -1rem;
+  left: 21rem;
+}
+.badge-lg {
+  width: 3.2rem;
+  height: 3.2rem;
+  top: -2.2rem;
+  left: 20rem;
+}
+.btn {
+  padding: 0.8rem;
+  background-color: var(--btn-bg-color);
+  border-radius: 1rem;
+  border: none;
+  color: var(--badge-color);
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.btn-badge {
+  position: absolute;
+  width: 2.2rem;
+  height: 2.2rem;
+  top: -1rem;
+  left: -1rem;
+  background-color: var(--badge-bg-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--badge-color);
+  font-size: 1.5rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+  background-color: var(--icon-bg-color);
+  border-radius: 50%;
+  font-size: 1em;
+  margin: 0 2rem;
+}
+
+.icon-badge {
+  position: absolute;
+  width: 2.2rem;
+  height: 2.2rem;
+  right: -0.4rem;
+  top: -1rem;
+  background-color: var(--badge-bg-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--badge-color);
+  font-size: 1.5rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon:active {
+  background-color: var(--icon-bg-active-color);
+}
+
+.circle {
+  margin: 0 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.avatar-vlarge {
+  height: 15rem;
+  width: 15rem;
+}
+
+.avatar-large {
+  height: 12rem;
+  width: 12rem;
+}
+
+.avatar-medium {
+  height: 9rem;
+  width: 9rem;
+}
+
+.avatar__badge {
+  position: relative;
+}
+
+.avatar-badge {
+  color: var(--badge-color);
+  background-color: var(--badge-bg-color);
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}

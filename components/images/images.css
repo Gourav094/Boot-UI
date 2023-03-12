@@ -1,0 +1,29 @@
+
+
+.component {
+padding: 1rem;
+}
+
+.image-container{
+  width: 30%;
+}
+
+
+.image-responsive{
+  width: 100%;
+}
+
+.image-vlarge {
+  height: 15rem;
+  width: 15rem;
+  object-fit:cover;
+}
+
+.round {
+  margin: 0 1rem;
+  border-radius: 50%;
+}
+
+.square{
+  margin: 0 1rem;
+}

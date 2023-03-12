@@ -1,0 +1,14 @@
+.component .toast .btn-toast{
+    padding: 0.8rem;
+    background-color: var(--gray-color);
+    color: var(--primary-color);
+}
+
+.component .toast .icon-dismiss{
+    margin-left: 1rem;
+}
+
+.toast .icon-dismiss:hover{
+  color: var(--complementary-color);
+  cursor: pointer;
+}

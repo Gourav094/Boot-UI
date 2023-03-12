@@ -1,0 +1,41 @@
+.alert-component {
+  border: 1px solid var(--border-color);
+  margin: 4rem;
+  padding: 2.5rem;
+  border-radius: 0.7rem;
+}
+
+.alert__btn {
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.7rem;
+  position: relative;
+  width: 50%;
+}
+
+.alert-icon {
+  margin-right: 1rem;
+}
+
+.dismiss-icon {
+  position: absolute;
+  right: 1.1rem;
+  top: 2rem;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: var(--danger-bg-color);
+  color: var(--danger-color);
+}
+
+.btn-warning {
+  background-color: var(--warning-bg-color);
+  color: var(--warning-color);
+}
+
+.btn-success {
+  background-color: var(--success-bg-color);
+  color: var(--success-color);
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Cards</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="/index.html">Aqua UI</a>
+        </div>
+        <ul class="right-nav">
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Examples</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h1 class="main-heading">Card</h1>
+        <h4 class="heading-info">
+          Cards are used to display collection of items and actions based on
+          individual concept. They come in different styles with different purposes.
+        </h4>
+        <h3 class="sub-heading">Example for vertical card.</h3>
+        <section class="component">
+          <div class="card-container">
+            <header class="card__header">
+              <img
+                src="https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="bag"
+                class="card__image"
+              />
+              <span class="card-badge">25% OFF</span>
+            </header>
+            <div class="card__body">
+              <div class="card__details">
+                <h4>Vinta Bag</h4>
+                <h6>Black Leather Made<span class="price-tag">$300</span></h6>
+              </div>
+            </div>
+            <footer class="card__footer">
+              <button class="card__button">
+                <span><i class="fas fa-shopping-cart"></i></span> Add to Cart
+              </button>
+              <span class="card__icon-heart"><i class="fas fa-heart"></i></span>
+            </footer>
+          </div>
+        </section>
+        <div class="code-snippet">
+   <pre class="code-prism">
+    <code class='language-html'>
+          &lt;div class=&quot;card-container&quot;&gt;
+            &lt;header class=&quot;card__header&quot;&gt;
+              &lt;img
+                src=&quot;https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80&quot;
+                alt=&quot;bag&quot;
+                class=&quot;card__image&quot;
+              /&gt;
+              &lt;span class=&quot;card-badge&quot;&gt;25% OFF&lt;/span&gt;
+            &lt;/header&gt;
+            &lt;div class=&quot;card__body&quot;&gt;
+              &lt;div class=&quot;card__details&quot;&gt;
+                &lt;h4&gt;Vinta Bag&lt;/h4&gt;
+                &lt;h6&gt;Black Leather Made&lt;span class=&quot;price-tag&quot;&gt;$300&lt;/span&gt;&lt;/h6&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;footer class=&quot;card__footer&quot;&gt;
+              &lt;button class=&quot;card__button&quot;&gt;
+                &lt;span&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;&lt;/span&gt; Add to Cart
+              &lt;/button&gt;
+              &lt;span class=&quot;card__icon-heart&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/footer&gt;
+          &lt;/div&gt;
+    </code>
+   </pre>
+  </div>
+        <h3 class="sub-heading">Example for horizontal card.</h3>
+        <section class="component">
+          <div class="card-container card-container-hz">
+            <header class="card__header card-header-hz">
+              <img
+                src="https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="bag"
+                class="card__image"
+              />
+              <span class="card-badge">25% OFF</span>
+            </header>
+            <div class="card-content card-content-hz">
+              <div class="card__body card-body-hz">
+                <div class="card__details card-details-hz">
+                  <h4>Vinta Bag</h4>
+                  <h6>Black Leather Made<span class="price-tag">$300</span></h6>
+                </div>
+              </div>
+              <footer class="card__footer card-footer-hz">
+                <button class="card__button">
+                  <span><i class="fas fa-shopping-cart"></i></span> Add to Cart
+                </button>
+                <span class="card__icon-heart"
+                  ><i class="fas fa-heart"></i
+                ></span>
+              </footer>
+            </div>
+          </div>
+        </section>
+         <div class="code-snippet">
+   <pre class="code-prism">
+    <code class='language-html'>
+         &lt;div class=&quot;card-container card-container-hz&quot;&gt;
+            &lt;header class=&quot;card__header card-header-hz&quot;&gt;
+              &lt;img
+                src=&quot;https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80&quot;
+                alt=&quot;bag&quot;
+                class=&quot;card__image&quot;
+              /&gt;
+              &lt;span class=&quot;card-badge&quot;&gt;25% OFF&lt;/span&gt;
+            &lt;/header&gt;
+            &lt;div class=&quot;card-content card-content-hz&quot;&gt;
+              &lt;div class=&quot;card__body card-body-hz&quot;&gt;
+                &lt;div class=&quot;card__details card-details-hz&quot;&gt;
+                  &lt;h4&gt;Vinta Bag&lt;/h4&gt;
+                  &lt;h6&gt;Black Leather Made&lt;span class=&quot;price-tag&quot;&gt;$300&lt;/span&gt;&lt;/h6&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;footer class=&quot;card__footer card-footer-hz&quot;&gt;
+                &lt;button class=&quot;card__button&quot;&gt;
+                  &lt;span&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;&lt;/span&gt; Add to Cart
+                &lt;/button&gt;
+                &lt;span class=&quot;card__icon-heart&quot;
+                  &gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i
+                &gt;&lt;/span&gt;
+              &lt;/footer&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+    </code>
+   </pre>
+  </div>
+        <h3 class="sub-heading">Example for card with dismiss button.</h3>
+        <section class="component">
+          <div class="card-container">
+            <header class="card__header">
+              <img
+                src="https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="bag"
+                class="card__image"
+              />
+              <span class="card-badge">25% OFF</span>
+              <i class="fas fa-times card-dismiss"></i>
+            </header>
+            <div class="card__body">
+              <div class="card__details">
+                <h4>Vinta Bag</h4>
+                <h6>Black Leather Made<span class="price-tag">$300</span></h6>
+              </div>
+            </div>
+            <footer class="card__footer">
+              <button class="card__button">
+                <span><i class="fas fa-shopping-cart"></i></span> Add to Cart
+              </button>
+              <span class="card__icon-heart"><i class="fas fa-heart"></i></span>
+            </footer>
+          </div>
+        </section>
+        <div class="code-snippet">
+   <pre class="code-prism">
+    <code class='language-html'>
+         &lt;div class=&quot;card-container&quot;&gt;
+            &lt;header class=&quot;card__header&quot;&gt;
+              &lt;img
+                src=&quot;https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80&quot;
+                alt=&quot;bag&quot;
+                class=&quot;card__image&quot;
+              /&gt;
+              &lt;span class=&quot;card-badge&quot;&gt;25% OFF&lt;/span&gt;
+              &lt;i class=&quot;fas fa-times card-dismiss&quot;&gt;&lt;/i&gt;
+            &lt;/header&gt;
+            &lt;div class=&quot;card__body&quot;&gt;
+              &lt;div class=&quot;card__details&quot;&gt;
+                &lt;h4&gt;Vinta Bag&lt;/h4&gt;
+                &lt;h6&gt;Black Leather Made&lt;span class=&quot;price-tag&quot;&gt;$300&lt;/span&gt;&lt;/h6&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;footer class=&quot;card__footer&quot;&gt;
+              &lt;button class=&quot;card__button&quot;&gt;
+                &lt;span&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;&lt;/span&gt; Add to Cart
+              &lt;/button&gt;
+              &lt;span class=&quot;card__icon-heart&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/footer&gt;
+          &lt;/div&gt;
+    </code>
+   </pre>
+  </div>
+        <h3 class="sub-heading">Example for card with text overlay.</h3>
+        <section class="component">
+          <div class="card-container overlay-container">
+            <header class="card__header">
+              <img
+                src="https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="bag"
+                class="card__image"
+              />
+              <span class="card-badge">25% OFF</span>
+            </header>
+            <div class="card__body">
+              <div class="card__details">
+                <h4>Vinta Bag</h4>
+                <h6>Black Leather Made<span class="price-tag">$300</span></h6>
+              </div>
+            </div>
+            <footer class="card__footer">
+              <button class="card__button">
+                <span><i class="fas fa-shopping-cart"></i></span> Add to Cart
+              </button>
+              <span class="card__icon-heart"><i class="fas fa-heart"></i></span>
+            </footer>
+            <div class="text-overlay-container">
+              <div class="text-overlay">OUT OF STOCK</div>
+            </div>
+          </div>
+        </section>
+         <div class="code-snippet">
+   <pre class="code-prism">
+    <code class='language-html'>
+          &lt;div class=&quot;card-container overlay-container&quot;&gt;
+            &lt;header class=&quot;card__header&quot;&gt;
+              &lt;img
+                src=&quot;https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80&quot;
+                alt=&quot;bag&quot;
+                class=&quot;card__image&quot;
+              /&gt;
+              &lt;span class=&quot;card-badge&quot;&gt;25% OFF&lt;/span&gt;
+            &lt;/header&gt;
+            &lt;div class=&quot;card__body&quot;&gt;
+              &lt;div class=&quot;card__details&quot;&gt;
+                &lt;h4&gt;Vinta Bag&lt;/h4&gt;
+                &lt;h6&gt;Black Leather Made&lt;span class=&quot;price-tag&quot;&gt;$300&lt;/span&gt;&lt;/h6&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;footer class=&quot;card__footer&quot;&gt;
+              &lt;button class=&quot;card__button&quot;&gt;
+                &lt;span&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;&lt;/span&gt; Add to Cart
+              &lt;/button&gt;
+              &lt;span class=&quot;card__icon-heart&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/footer&gt;
+            &lt;div class=&quot;text-overlay-container&quot;&gt;
+              &lt;div class=&quot;text-overlay&quot;&gt;OUT OF STOCK&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+    </code>
+   </pre>
+  </div>
+        <h3 class="sub-heading">Example for card with shadow.</h3>
+        <section class="component">
+          <div class="card-container box-shadow">
+            <header class="card__header">
+              <img
+                src="https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="bag"
+                class="card__image"
+              />
+              <span class="card-badge">25% OFF</span>
+            </header>
+            <div class="card__body">
+              <div class="card__details">
+                <h4>Vinta Bag</h4>
+                <h6>Black Leather Made<span class="price-tag">$300</span></h6>
+              </div>
+            </div>
+            <footer class="card__footer">
+              <button class="card__button">
+                <span><i class="fas fa-shopping-cart"></i></span> Add to Cart
+              </button>
+              <span class="card__icon-heart"><i class="fas fa-heart"></i></span>
+            </footer>
+          </div>
+        </section>
+         <div class="code-snippet">
+   <pre class="code-prism">
+    <code class='language-html'>
+         &lt;div class=&quot;card-container box-shadow&quot;&gt;
+            &lt;header class=&quot;card__header&quot;&gt;
+              &lt;img
+                src=&quot;https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80&quot;
+                alt=&quot;bag&quot;
+                class=&quot;card__image&quot;
+              /&gt;
+              &lt;span class=&quot;card-badge&quot;&gt;25% OFF&lt;/span&gt;
+            &lt;/header&gt;
+            &lt;div class=&quot;card__body&quot;&gt;
+              &lt;div class=&quot;card__details&quot;&gt;
+                &lt;h4&gt;Vinta Bag&lt;/h4&gt;
+                &lt;h6&gt;Black Leather Made&lt;span class=&quot;price-tag&quot;&gt;$300&lt;/span&gt;&lt;/h6&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;footer class=&quot;card__footer&quot;&gt;
+              &lt;button class=&quot;card__button&quot;&gt;
+                &lt;span&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;&lt;/span&gt; Add to Cart
+              &lt;/button&gt;
+              &lt;span class=&quot;card__icon-heart&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/footer&gt;
+          &lt;/div&gt;
+    </code>
+   </pre>
+  </div>
+        <h3 class="sub-heading">Example for text only card.</h3>
+        <section class="component">
+          <div class="card-container">
+            <div class="text-only">
+              " A card is a piece of design that separates itself from the rest
+              of the page, giving the user a hint to focus on it."
+            </div>
+          </div>
+        </section>
+        <div class="code-snippet">
+   <pre class="code-prism">
+    <code class='language-html'>
+          &lt;div class=&quot;card-container&quot;&gt;
+            &lt;div class=&quot;text-only&quot;&gt;
+              &quot; A card is a piece of design that separates itself from the rest
+              of the page, giving the user a hint to focus on it.&quot;
+            &lt;/div&gt;
+          &lt;/div&gt;
+    </code>
+   </pre>
+  </div>
+      </main>
+      <div class="sidebar">
+      
+        <div>
+          <div class="list-topic">
+            <a href="#"> Get Started </a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/get-started/introduction.html"> Introduction </a>
+            </li>
+          </ul>
+        </div>
+        
+        <div>
+          <div class="list-topic">
+            <a href="#">Components</a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/components/avatar/avatar.html"> Avatar </a>
+            </li>
+            <li>
+              <a href="/components/alert/alert.html"> Alert </a>
+            </li>
+            <li>
+              <a href="/components/badge/badge.html"> Badge </a>
+            </li>
+            <li>
+              <a href="/components/button/button.html"> Button </a>
+            </li>
+            <li>
+              <a href="/components/cards/cards.html"> Card </a>
+            </li>
+            <li>
+              <a href="/components/images/images.html"> Image </a>
+            </li>
+            <li>
+              <a href="/components/input/input.html"> Input </a>
+            </li>
+            <li>
+              <a href="/components/navigation/navigation.html"> Navigation </a>
+            </li>
+            <li>
+              <a href="/components/rating/rating.html"> Rating </a>
+            </li>
+            <li>
+              <a href="/components/modal/modal.html"> Modal </a>
+            </li>
+            <li>
+              <a href="/components/typography/typography.html"> Typography </a>
+            </li>
+            <li>
+              <a href="/components/list/list.html"> List </a>
+            </li>
+            <li>
+              <a href="/components/toast/toast.html"> Toast </a>
+            </li>
+            <li>
+              <a href="/components/grid/grid.html"> Grid </a>
+            </li>
+            <li>
+              <a href="/components/slider/slider.html"> Slider </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <li><a href="/components/button/button.html">< Prev Page</a></li>
+        <li><a href="/components/images/images.html">Next Page ></a></li>
+      </footer>
+    </div>
+    <script src="/css/prism/prism.js"></script>
+  </body>
+</html>

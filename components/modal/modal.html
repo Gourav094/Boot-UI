@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="/index.html">Aqua UI</a>
+        </div>
+        <ul class="right-nav">
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Examples</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h1 class="main-heading">Modal</h1>
+        <h4 class="heading-info">
+          A modal is a dialog box/popup window that is displayed on top of the
+          current page.
+        </h4>
+        <h3 class="sub-heading">Below is an example for modal.</h3>
+        <section class="component">
+          <div class="modal-display">
+            <button id="open" class="modal_btn btn-open">Click Me</button>
+            <div class="modal_container" id="modal_container">
+              <div class="modal">
+                <h1>Modal</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                  commodi accusamus, porro officia perferendis autem est numquam
+                  magnam alias repudiandae, eligendi, odit earum
+                </p>
+                <button id="close" class="modal_btn">Close</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="code-snippet" id="code-display">
+          <pre class="code-prism">
+            <code class='language-html'>
+          &lt;div class=&quot;modal-display&quot;&gt;
+            &lt;button id=&quot;open&quot; class=&quot;modal_btn btn-open&quot;&gt;Click Me&lt;/button&gt;
+            &lt;div class=&quot;modal_container&quot; id=&quot;modal_container&quot;&gt;
+              &lt;div class=&quot;modal&quot;&gt;
+                &lt;h1&gt;Modal&lt;/h1&gt;
+                &lt;p&gt;
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                  commodi accusamus, porro officia perferendis autem est numquam
+                  magnam alias repudiandae, eligendi, odit earum
+                &lt;/p&gt;
+                &lt;button id=&quot;close&quot; class=&quot;modal_btn&quot;&gt;Close&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+        <h3 class="sub-heading">JavaScript code for using a Modal.</h3>
+         <div class="code-snippet" id="code-display1">
+          <pre class="code-prism">
+            <code class='language-javascript'>
+         const open = document.querySelector(&apos;#open&apos;);
+         const modal_container = document.querySelector(&apos;#modal_container&apos;);
+         const close = document.querySelector(&apos;#close&apos;);
+
+
+         open.addEventListener(&apos;click&apos;, () =&gt; {
+         modal_container.style.zIndex=&apos;1&apos;;
+         modal_container.classList.add(&apos;show&apos;);
+         });
+
+         close.addEventListener(&apos;click&apos;, () =&gt; modal_container.classList.remove(&apos;show&apos;));
+
+
+
+
+            </code>
+          </pre>
+        </div>
+      </main>
+      <div class="sidebar">
+        <!-- Get Started List Start -->
+        <div>
+          <div class="list-topic">
+            <a href="#"> Get Started </a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/get-started/introduction.html"> Introduction </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Components List start -->
+        <div>
+          <div class="list-topic">
+            <a href="#">Components</a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/components/avatar/avatar.html"> Avatar </a>
+            </li>
+            <li>
+              <a href="/components/alert/alert.html"> Alert </a>
+            </li>
+            <li>
+              <a href="/components/badge/badge.html"> Badge </a>
+            </li>
+            <li>
+              <a href="/components/button/button.html"> Button </a>
+            </li>
+            <li>
+              <a href="/components/cards/cards.html"> Card </a>
+            </li>
+            <li>
+              <a href="/components/images/images.html"> Image </a>
+            </li>
+            <li>
+              <a href="/components/input/input.html"> Input </a>
+            </li>
+            <li>
+              <a href="/components/navigation/navigation.html"> Navigation </a>
+            </li>
+            <li>
+              <a href="/components/rating/rating.html"> Rating </a>
+            </li>
+            <li>
+              <a href="/components/modal/modal.html"> Modal </a>
+            </li>
+            <li>
+              <a href="/components/typography/typography.html"> Typography </a>
+            </li>
+            <li>
+              <a href="/components/list/list.html"> List </a>
+            </li>
+            <li>
+              <a href="/components/toast/toast.html"> Toast </a>
+            </li>
+            <li>
+              <a href="/components/grid/grid.html"> Grid </a>
+            </li>
+            <li>
+              <a href="/components/slider/slider.html"> Slider </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <li><a href="/components/rating/rating.html">< Prev Page</a></li>
+        <li><a href="/components/typography/typography.html">Next Page ></a></li>
+      </footer>
+    </div>
+
+    <script src="/css/prism/prism.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>

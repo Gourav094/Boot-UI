@@ -1,0 +1,12 @@
+.component .list{
+    list-style: none;
+}
+
+.component .list-inline{
+    display:flex;
+    justify-content:space-between;
+}
+
+.list-inline li{
+    margin:0 1rem ;
+}

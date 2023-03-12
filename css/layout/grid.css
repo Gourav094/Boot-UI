@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 300px repeat(2, 1fr);
+  grid-template-rows: 8rem auto 5rem;
+  grid-template-areas:
+    'header header header header'
+    'sidebar content content content'
+    'sidebar footer footer footer';
+}
+
+nav {
+  grid-area: header;
+}
+main {
+  grid-area: content;
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: rgba(238, 237, 237, 0.199);
+}
+footer {
+  grid-area: footer;
+}

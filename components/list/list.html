@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../../style.css" />
+    <title>List</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="/index.html">Aqua UI</a>
+        </div>
+        <ul class="right-nav">
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Examples</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h1 class="main-heading">List</h1>
+        <h4 class="heading-info">
+          Lists can be both spaced and stacked in nature.
+        </h4>
+        <h3 class="sub-heading">
+          Below is an example for spaced stack that are normal lists.
+        </h3>
+        <section class="component">
+          <ul class="list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <ul class="list list-inline">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </section>
+        <div class="code-snippet">
+          <pre class="code-prism">
+            <code class='language-html'>
+             &lt;ul class=&quot;list&quot;&gt;
+              &lt;li&gt;Item 1&lt;/li&gt;
+              &lt;li&gt;Item 2&lt;/li&gt;
+              &lt;li&gt;Item 3&lt;/li&gt;
+             &lt;/ul&gt;
+             &lt;ul class=&quot;list list-inline&quot;&gt;
+              &lt;li&gt;Item 1&lt;/li&gt;
+              &lt;li&gt;Item 2&lt;/li&gt;
+              &lt;li&gt;Item 3&lt;/li&gt;
+             &lt;/ul&gt;
+            </code>
+          </pre>
+        </div>
+        <h3 class="sub-heading">
+          Below is an example for stacked lists used in notification pages.
+        </h3>
+        <section class="component">
+          <ul class="list">
+            <li>
+              <p class="text-lg">user-1</p>
+              <span>Just liked your tweet now at 9:00pm</span>
+            </li>
+            <li>
+              <p class="text-lg">user-2</p>
+              <span>Just liked your tweet now at 9:01pm</span>
+            </li>
+            <li>
+              <p class="text-lg">user-3</p>
+              <span>Just liked your tweet now at 9:02pm</span>
+            </li>
+          </ul>
+        </section>
+        <div class="code-snippet">
+          <pre class="code-prism">
+            <code class='language-html'>
+          &lt;ul class=&quot;list&quot;&gt;
+            &lt;li&gt;
+              &lt;p class=&quot;text-lg&quot;&gt;user-1&lt;/p&gt;
+              &lt;span&gt;Just liked your tweet now at 9:00pm&lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;p class=&quot;text-lg&quot;&gt;user-2&lt;/p&gt;
+              &lt;span&gt;Just liked your tweet now at 9:01pm&lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;p class=&quot;text-lg&quot;&gt;user-3&lt;/p&gt;
+              &lt;span&gt;Just liked your tweet now at 9:02pm&lt;/span&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+            </code>
+          </pre>
+        </div>
+      </main>
+      <div class="sidebar">
+        <!-- Get Started List Start -->
+        <div>
+          <div class="list-topic">
+            <a href="#"> Get Started </a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/get-started/introduction.html"> Introduction </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Components List start -->
+        <div>
+          <div class="list-topic">
+            <a href="#">Components</a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/components/avatar/avatar.html"> Avatar </a>
+            </li>
+            <li>
+              <a href="/components/alert/alert.html"> Alert </a>
+            </li>
+            <li>
+              <a href="/components/badge/badge.html"> Badge </a>
+            </li>
+            <li>
+              <a href="/components/button/button.html"> Button </a>
+            </li>
+            <li>
+              <a href="/components/cards/cards.html"> Card </a>
+            </li>
+            <li>
+              <a href="/components/images/images.html"> Image </a>
+            </li>
+            <li>
+              <a href="/components/input/input.html"> Input </a>
+            </li>
+            <li>
+              <a href="/components/navigation/navigation.html"> Navigation </a>
+            </li>
+            <li>
+              <a href="/components/rating/rating.html"> Rating </a>
+            </li>
+            <li>
+              <a href="/components/modal/modal.html"> Modal </a>
+            </li>
+            <li>
+              <a href="/components/typography/typography.html"> Typography </a>
+            </li>
+            <li>
+              <a href="/components/list/list.html"> List </a>
+            </li>
+            <li>
+              <a href="/components/toast/toast.html"> Toast </a>
+            </li>
+            <li>
+              <a href="/components/grid/grid.html"> Grid </a>
+            </li>
+            <li>
+              <a href="/components/slider/slider.html"> Slider </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <li>
+          <a href="/components/typography/typography.html">< Prev Page</a>
+        </li>
+        <li><a href="/components/toast/toast.html">Next Page ></a></li>
+      </footer>
+    </div>
+
+    <script src="/css/prism/prism.js"></script>
+  </body>
+</html>

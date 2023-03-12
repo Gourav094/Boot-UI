@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Alert</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="/index.html">Aqua UI</a>
+        </div>
+        <ul class="right-nav">
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Examples</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h1 class="main-heading">Alert</h1>
+        <h4 class="heading-info">
+          An alert is used to attract user's attention by displaying a short
+          message to a user without interrupting the user's flow.
+        </h4>
+        <h3 class="sub-heading">Below is an example for Alert without close button.</h3>
+        <section class="alert-component">
+          <div class="alert">
+            <div class="alert__btn btn-danger">
+              <span
+                ><i class="fas fa-exclamation-triangle alert-icon"></i>
+                <strong>Alert</strong> - This is danger bar</span
+              >
+            </div>
+            <div class="alert__btn btn-warning">
+              <span>
+                <i class="fas fa-exclamation-triangle alert-icon"></i
+                ><strong>Alert</strong> - This is warning bar</span
+              >
+            </div>
+            <div class="alert__btn btn-success">
+              <span>
+                <i class="far fa-check-circle alert-icon"></i
+                ><strong>Alert</strong> - This is success bar</span
+              >
+            </div>
+          </div>
+        </section>
+        <div class="code-snippet">
+          <pre class="code-prism">
+  <code class='language-html'>
+          &lt;div class=&quot;alert__btn btn-danger&quot;&gt;
+              &lt;span
+                &gt;&lt;i class=&quot;fas fa-exclamation-triangle alert-icon&quot;&gt;&lt;/i&gt;
+                &lt;strong&gt;Alert&lt;/strong&gt; - This is danger bar&lt;/span
+              &gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;alert__btn btn-warning&quot;&gt;
+              &lt;span&gt;
+                &lt;i class=&quot;fas fa-exclamation-triangle alert-icon&quot;&gt;&lt;/i
+                &gt;&lt;strong&gt;Alert&lt;/strong&gt; - This is warning bar&lt;/span
+              &gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;alert__btn btn-success&quot;&gt;
+              &lt;span&gt;
+                &lt;i class=&quot;far fa-check-circle alert-icon&quot;&gt;&lt;/i
+                &gt;&lt;strong&gt;Alert&lt;/strong&gt; - This is success bar&lt;/span
+              &gt;
+            &lt;/div&gt;
+  </code>
+</pre>
+        </div>
+
+        <h3 class="sub-heading">Below is an example for Alert with close button.</h3>
+        <section class="alert-component">
+          <div class="alert">
+            <div class="alert__btn btn-danger">
+              <span
+                ><i class="fas fa-exclamation-triangle alert-icon"></i>
+                <strong>Alert</strong> - This is danger bar<i
+                  class="fas fa-times dismiss-icon"
+                ></i
+              ></span>
+            </div>
+            <div class="alert__btn btn-warning">
+              <span>
+                <i class="fas fa-exclamation-triangle alert-icon"></i
+                ><strong>Alert</strong> - This is warning bar<i
+                  class="fas fa-times dismiss-icon"
+                ></i
+              ></span>
+            </div>
+            <div class="alert__btn btn-success">
+              <span>
+                <i class="far fa-check-circle alert-icon"></i
+                ><strong>Alert</strong> - This is success bar<i
+                  class="fas fa-times dismiss-icon"
+                ></i
+              ></span>
+            </div>
+          </div>
+        </section>
+        <div class="code-snippet">
+          
+          <pre class="code-prism">
+  <code class='language-html'>
+          
+            &lt;div class=&quot;alert__btn btn-danger&quot;&gt;
+              &lt;span
+                &gt;&lt;i class=&quot;fas fa-exclamation-triangle alert-icon&quot;&gt;&lt;/i&gt;
+                &lt;strong&gt;Alert&lt;/strong&gt; - This is danger bar&lt;i
+                  class=&quot;fas fa-times dismiss-icon&quot;
+                &gt;&lt;/i
+              &gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;alert__btn btn-warning&quot;&gt;
+              &lt;span&gt;
+                &lt;i class=&quot;fas fa-exclamation-triangle alert-icon&quot;&gt;&lt;/i
+                &gt;&lt;strong&gt;Alert&lt;/strong&gt; - This is warning bar&lt;i
+                  class=&quot;fas fa-times dismiss-icon&quot;
+                &gt;&lt;/i
+              &gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;alert__btn btn-success&quot;&gt;
+              &lt;span&gt;
+                &lt;i class=&quot;far fa-check-circle alert-icon&quot;&gt;&lt;/i
+                &gt;&lt;strong&gt;Alert&lt;/strong&gt; - This is success bar&lt;i
+                  class=&quot;fas fa-times dismiss-icon&quot;
+                &gt;&lt;/i
+              &gt;&lt;/span&gt;
+            &lt;/div&gt;
+          
+  </code>
+</pre>
+        </div>
+      </main>
+      <div class="sidebar">
+        <!-- Get Started List Start -->
+        <div>
+          <div class="list-topic">
+            <a href="#"> Get Started </a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/get-started/introduction.html"> Introduction </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Components List start -->
+        <div>
+          <div class="list-topic">
+            <a href="#">Components</a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/components/avatar/avatar.html"> Avatar </a>
+            </li>
+            <li>
+              <a href="/components/alert/alert.html"> Alert </a>
+            </li>
+            <li>
+              <a href="/components/badge/badge.html"> Badge </a>
+            </li>
+            <li>
+              <a href="/components/button/button.html"> Button </a>
+            </li>
+            <li>
+              <a href="/components/cards/cards.html"> Card </a>
+            </li>
+            <li>
+              <a href="/components/images/images.html"> Image </a>
+            </li>
+            <li>
+              <a href="/components/input/input.html"> Input </a>
+            </li>
+            <li>
+              <a href="/components/navigation/navigation.html"> Navigation </a>
+            </li>
+            <li>
+              <a href="/components/rating/rating.html"> Rating </a>
+            </li>
+            <li>
+              <a href="/components/modal/modal.html"> Modal </a>
+            </li>
+            <li>
+              <a href="/components/typography/typography.html"> Typography </a>
+            </li>
+            <li>
+              <a href="/components/list/list.html"> List </a>
+            </li>
+            <li>
+              <a href="/components/toast/toast.html"> Toast </a>
+            </li>
+            <li>
+              <a href="/components/grid/grid.html"> Grid </a>
+            </li>
+            <li>
+              <a href="/components/slider/slider.html"> Slider </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <li><a href="/components/avatar/avatar.html">< Prev Page</a></li>
+        <li><a href="/components/badge/badge.html">Next Page ></a></li>
+      </footer>
+    </div>
+
+    <script src="/css/prism/prism.js"></script>
+  </body>
+</html>
